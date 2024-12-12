@@ -28,8 +28,10 @@ export default function Experience()
     enableDamping={true}
     
     // Optional: Prevent rotation speed from being too fast
-    rotateSpeed={0.25}/>
-    
+    rotateSpeed={0.25}
+    zoomSpeed={0.9}
+    />
+   
     <EffectComposer>
     {/* {AutoFocus && (
         <AutoFocusDOF
